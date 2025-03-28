@@ -1,17 +1,4 @@
-﻿# Crew AI Research Project
-
-## Overview
-A self-hosted Crew AI project for investigating AI technology trends.
-
-## Setup
-1. Install dependencies: pip install -r requirements.txt
-2. Set up environment variables
-3. Run the project: python main.py
-"@ | Out-File -FilePath README.md -Encoding UTF8
-
-# Create render.yaml
-@"
-services:
+﻿services:
   - type: web
     name: crew-ai-project
     env: python3.10

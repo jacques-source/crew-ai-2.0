@@ -14,17 +14,17 @@ class CrewAIProject:
     def create_agents(self):
         researcher = Agent(
             role='Researcher',
-            goal='Conduct thorough research on AI trends',
-            backstory='An expert AI researcher with global insights',
+            goal='Conduct thorough research',
+            backstory='An expert researcher with years of experience',
             verbose=True
         )
         return [researcher]
 
     def create_tasks(self):
         research_task = Task(
-            description='Investigate and summarize current AI technology trends',
+            description='Perform comprehensive research on a given topic',
             agent=self.agents[0],
-            expected_output='A comprehensive report on recent AI developments'
+            expected_output='A detailed research report'
         )
         return [research_task]
 

@@ -2,3 +2,4 @@
 python-dotenv
 openai
 langchain
+# Add any additional dependencies
