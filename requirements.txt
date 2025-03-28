@@ -1,0 +1,4 @@
+﻿crewai
+python-dotenv
+openai
+langchain
